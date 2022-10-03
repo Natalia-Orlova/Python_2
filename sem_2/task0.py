@@ -4,7 +4,7 @@
 number = int(input("Enter the number "))
 num = 1
 for i in range(number):
-    print(num, end=" ")
+    print(num, end=", ")
     num *= -3
 
 
